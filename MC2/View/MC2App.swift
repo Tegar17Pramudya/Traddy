@@ -17,8 +17,8 @@ struct MC2App: App {
     var body: some Scene {
         WindowGroup {
             
-            SummaryView(itemsCount: .constant(0), itemsCount2: .constant(0), text: .constant("")).preferredColorScheme(.light)
-            //MainView(searchQuery: .constant("")).preferredColorScheme(.light)
+            //SummaryView(itemsCount: .constant(0), itemsCount2: .constant(0), text: .constant("")).preferredColorScheme(.light)
+            MainView(searchQuery: .constant("")).preferredColorScheme(.light)
             
             //BottomSheetView()
             //ContentView()
